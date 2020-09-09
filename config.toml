@@ -18,24 +18,28 @@ home = "Home"
 about = "About"
 service = "Services"
 contact = "Contact"
+cta = "Iscriviti"
 
 # Hero Area
 [params.hero]
 enable            = true
 bg                = "images/header-bg.jpg"
-title             = "BRING YOUR PRODUCT TO LIGHT"
-subtitle          = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna"
-btnText           = "Get Started"
+title             = "Power Platform 2020"
+subtitle          = "Power Platform 2020 è un evento online gratuito destinato allo sviluppo lowcode nel mondo microsoft"
+btnText           = "Registrati"
 
 # counter
 disableCountdown  = false
 countdownYear = "2020"
 countdownMonth = "11"
 countdownDay  = "06"
+countdownHour  = "15"
+countdownMin  = "00"
+countdownSec  = "00"
 
 # About Section
 [params.about]
-enable      = true
+enable      = false
 heading     = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam ipsa recusandae consequatur veniam, reiciendis odit quia eaque vel eius a."
 description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ulla-mco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, aspernatur."
 
@@ -51,7 +55,7 @@ image   = "images/about/2.jpg"
 
 # Service Section
 [params.service]
-enable      = true
+enable      = false
 title       = "Find Better Solutions Build Better Products"
 subtitle    = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et"
 [[params.service.serviceItem]]
@@ -129,12 +133,12 @@ delay   = "1.5s"
 
 # Call to Action Section
 [params.cta]
-enable      = true
+enable      = false
 bg          = "images/call-to-action.jpg"
-title       = "Subscribe to our mailing list"
+title       = "Iscriviti su EventBrite"
 subtitle    = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod"
 
 [params.contact]
-enable      = true
+enable      = false
 title       = "Get In Touch"
 subtitle    = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex"

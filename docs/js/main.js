@@ -14,7 +14,6 @@ $(document).ready(function () {
         scrollSpeed: 1200
     });
 
-
     //animated header class
     $(window).scroll(function () {
         var scroll = $(window).scrollTop();
@@ -35,18 +34,23 @@ $(document).ready(function () {
         pagination: true,
         autoPlay: 5000,
     });
+    
 
     $year = $('#countdown_dashboard').data('year');
     $month = $('#countdown_dashboard').data('month');
     $day = $('#countdown_dashboard').data('day');
+    $hour = $('#countdown_dashboard').data('hour');
+    $min = $('#countdown_dashboard').data('min');
+    $sec = $('#countdown_dashboard').data('sec');
+
     $('#countdown_dashboard').countDown({
         targetDate: {
             'day': $day,
             'month': $month,
             'year': $year,
-            'hour': 23,
-            'min': 59,
-            'sec': 59,
+            'hour': $hour,
+            'min': $min,
+            'sec': $sec,
         },
         omitWeeks: true
     });
