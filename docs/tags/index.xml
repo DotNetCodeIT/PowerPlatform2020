@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on PowerApp2020</title>
-    <link>https://dotnetcodeit.github.io/PowerPlatform2020/tags/</link>
-    <description>Recent content in Tags on PowerApp2020</description>
+    <title>Tags on O365 Day</title>
+    <link>http://o365day2020.dotnetdev.it/tags/</link>
+    <description>Recent content in Tags on O365 Day</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>it-it</language>
     
-	<atom:link href="https://dotnetcodeit.github.io/PowerPlatform2020/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://o365day2020.dotnetdev.it/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

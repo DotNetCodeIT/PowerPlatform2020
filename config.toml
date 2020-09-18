@@ -1,6 +1,6 @@
-baseURL = "https://dotnetcodeit.github.io/PowerPlatform2020/"
-languageCode = "en-us"
-title = "PowerApp2020"
+baseURL = "http://o365day2020.dotnetdev.it/"
+languageCode = "it-it"
+title = "O365 Day"
 theme = "infinity-hugo"
 removePathAccents = true
 publishDir = "docs"
@@ -19,13 +19,14 @@ about = "About"
 service = "Services"
 contact = "Contact"
 cta = "Iscriviti"
+sponsor = "Sponsor"
 
 # Hero Area
 [params.hero]
 enable            = true
-bg                = "images/header-bg.jpg"
-title             = "Power Platform 2020"
-subtitle          = "Power Platform 2020 è un evento online gratuito destinato allo sviluppo lowcode nel mondo microsoft"
+bg                = "images/header-bg_.jpg"
+title             = "O365 Day 2020"
+subtitle          = "O365 Day 2020 è un evento online gratuito destinato allo sviluppo lowcode nel mondo microsoft"
 btnText           = "Registrati"
 
 # counter
@@ -33,9 +34,30 @@ disableCountdown  = false
 countdownYear = "2020"
 countdownMonth = "11"
 countdownDay  = "06"
-countdownHour  = "15"
+countdownHour  = "09"
 countdownMin  = "00"
 countdownSec  = "00"
+
+# Sponsor Session
+[params.sponsor]
+enable = true
+heading     = "I nostri sponsor oggi come altre volte rendono possibile questo evento"
+titleplatinum   = "Sponsor platinum"
+titlegold   = "Sponsor gold"
+titletech   = "Sponsor tecnico"
+
+[[params.sponsor.sliderItemPlatinum]]
+image   = "images/sponsor/microsoft.png"
+link    = "https://www.microsoft.com"
+
+[[params.sponsor.sliderItemPlatinum]]
+image   = "images/sponsor/reply.png"
+link    = "https://www.reply.com/it"
+
+[[params.sponsor.sliderItemTech]]
+image   = "images/sponsor/jetbrains.png"
+link    = "https://www.jetbrains.com/"
+
 
 # About Section
 [params.about]
@@ -133,10 +155,18 @@ delay   = "1.5s"
 
 # Call to Action Section
 [params.cta]
-enable      = false
+enable      = true
 bg          = "images/call-to-action.jpg"
 title       = "Iscriviti su EventBrite"
 subtitle    = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod"
+eventbriteTitle = "Eventbrite"
+eventbriteText = "Partecipa all'evento"
+eventbriteLink = "https://www.eventbrite.it/e/registrazione-microsoft-365-day-2020-120789694227?fbclid=IwAR3KP6wYkAwIaQxGtrF6xg0Odlg1fhrZJ6i9C8TN2FNMZ5R0sFOgIZau1jA"
+cfpTitle = "Call For Paper"
+cfpText = "la CFP è aperta"
+cfpLink = "https://sessionize.com/rome-o365day-2020/?fbclid=IwAR01cVWOfbjVCiKJrkGXyenlPcmadrt-66M18xteKx5UonhgupMfuZW0HkY"
+
+
 
 [params.contact]
 enable      = false
