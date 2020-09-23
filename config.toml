@@ -18,7 +18,7 @@ home = "Home"
 about = "About"
 service = "Services"
 contact = "Contact"
-cta = "Iscriviti"
+cta = "Be a Part"
 sponsor = "Sponsor"
 
 # Hero Area
@@ -26,7 +26,8 @@ sponsor = "Sponsor"
 enable            = true
 bg                = "images/header-bg_.jpg"
 title             = "O365 Day 2020"
-subtitle          = "O365 Day 2020 è un evento online gratuito destinato allo sviluppo lowcode nel mondo microsoft"
+eventDate         = "06/11/2020"
+subtitle          = "O365 Day is a free online event dedicated to Low Code developer on Microsoft Platform"
 btnText           = "Registrati"
 
 # counter
@@ -53,6 +54,10 @@ link    = "https://www.microsoft.com"
 [[params.sponsor.sliderItemPlatinum]]
 image   = "images/sponsor/reply.png"
 link    = "https://www.reply.com/it"
+
+[[params.sponsor.sliderItemPlatinum]]
+image   = "images/sponsor/avanade.png"
+link    = "https://www.avanade.com/it-it"
 
 [[params.sponsor.sliderItemTech]]
 image   = "images/sponsor/jetbrains.png"
@@ -157,13 +162,15 @@ delay   = "1.5s"
 [params.cta]
 enable      = true
 bg          = "images/call-to-action.jpg"
-title       = "Iscriviti su EventBrite"
-subtitle    = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod"
+title       = "We Want you"
+subtitle    = "Do you want partecipate to O365 Day? You can teach, learn or help us as a staff member!"
 eventbriteTitle = "Eventbrite"
-eventbriteText = "Partecipa all'evento"
+eventbriteText = "Join the online event"
+eventbriteHomeButtonText = "Join the online event"
 eventbriteLink = "https://www.eventbrite.it/e/registrazione-microsoft-365-day-2020-120789694227?fbclid=IwAR3KP6wYkAwIaQxGtrF6xg0Odlg1fhrZJ6i9C8TN2FNMZ5R0sFOgIZau1jA"
 cfpTitle = "Call For Paper"
-cfpText = "la CFP è aperta"
+cfpText = "The Call For Paper is open"
+cfpHomeButtonText = "Call for paper"
 cfpLink = "https://sessionize.com/rome-o365day-2020/?fbclid=IwAR01cVWOfbjVCiKJrkGXyenlPcmadrt-66M18xteKx5UonhgupMfuZW0HkY"
 
 

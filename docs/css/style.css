@@ -298,6 +298,15 @@ a:active {
   padding-bottom: 19px;
 }
 
+.hero-area h2 {
+  color: #fff;
+
+  text-transform: uppercase;
+
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
 .hero-area p {
   color: #fff;
   font-size: 20px;
@@ -581,4 +590,22 @@ footer p a {
 footer p a:hover {
   color: #fff;
   text-decoration: none;
+}
+
+
+.sponsor-heading
+{
+  margin-bottom: 20px; /* Added */
+}
+
+.jumbotron
+{
+  background-color: transparent;
+}
+
+.contactButton
+{
+  position: relative;
+  bottom: 0px;;
+  right: 0px;
 }
