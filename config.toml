@@ -24,7 +24,7 @@ sponsor = "Sponsor"
 # Hero Area
 [params.hero]
 enable            = true
-bg                = "images/header-bg_.jpg"
+bg                = "images/header-bg.png"
 title             = "O365 Day 2020"
 eventDate         = "06/11/2020"
 subtitle          = "O365 Day is a free online event dedicated to Low Code developer on Microsoft Platform"
@@ -42,10 +42,13 @@ countdownSec  = "00"
 # Sponsor Session
 [params.sponsor]
 enable = true
-heading     = "I nostri sponsor oggi come altre volte rendono possibile questo evento"
-titleplatinum   = "Sponsor platinum"
-titlegold   = "Sponsor gold"
-titletech   = "Sponsor tecnico"
+heading     = "The conference is organized by the DotNetCode community and is free, cost are supported by our sponsors."
+titleplatinum   = "Platinum Sponsor"
+titlegold   = "Gold Sponsor"
+titletech   = "Tech Sponsor"
+platinumSponsorEnable = true
+goldSponsorEnable = true
+techSponsorEnable = true
 
 [[params.sponsor.sliderItemPlatinum]]
 image   = "images/sponsor/microsoft.png"
@@ -58,6 +61,10 @@ link    = "https://www.reply.com/it"
 [[params.sponsor.sliderItemPlatinum]]
 image   = "images/sponsor/avanade.png"
 link    = "https://www.avanade.com/it-it"
+
+[[params.sponsor.sliderItemGold]]
+image   = "images/sponsor/lobra.png"
+link    = "https://www.lobrafutura.com/"
 
 [[params.sponsor.sliderItemTech]]
 image   = "images/sponsor/jetbrains.png"
@@ -161,17 +168,22 @@ delay   = "1.5s"
 # Call to Action Section
 [params.cta]
 enable      = true
-bg          = "images/call-to-action.jpg"
+bg          = "images/call-to-action.png"
 title       = "We Want you"
 subtitle    = "Do you want partecipate to O365 Day? You can teach, learn or help us as a staff member!"
-eventbriteTitle = "Eventbrite"
-eventbriteText = "Join the online event"
-eventbriteHomeButtonText = "Join the online event"
-eventbriteLink = "https://www.eventbrite.it/e/registrazione-microsoft-365-day-2020-120789694227?fbclid=IwAR3KP6wYkAwIaQxGtrF6xg0Odlg1fhrZJ6i9C8TN2FNMZ5R0sFOgIZau1jA"
-cfpTitle = "Call For Paper"
-cfpText = "The Call For Paper is open"
+
+eventbriteHomeButtonText = "Registrer to online event"
 cfpHomeButtonText = "Call for paper"
-cfpLink = "https://sessionize.com/rome-o365day-2020/?fbclid=IwAR01cVWOfbjVCiKJrkGXyenlPcmadrt-66M18xteKx5UonhgupMfuZW0HkY"
+
+eventbriteTitle = "Eventbrite"
+eventbriteText = "The Office 365/Power Platform Day 2020 is a free one-day event organized by DotNetCode Community about Office 365, SharePoint Online and Power Platform."
+eventbriteButtonText ="Registrer to online event"
+eventbriteLink = "https://www.eventbrite.it/e/registrazione-microsoft-365-day-2020-120789694227?fbclid=IwAR3KP6wYkAwIaQxGtrF6xg0Odlg1fhrZJ6i9C8TN2FNMZ5R0sFOgIZau1jA"
+
+cfpTitle = "Call For Paper"
+cfpText = "Microsoft 365 Day is the event dedicated to the Microsoft Office Platform like Office 365, Sharepoint Online, Power Platform (Power BI, Power apps etc)."
+cfpButtonText = "Call for paper"
+cfpLink = "https://sessionize.com/rome-o365day-2020/"
 
 
 
