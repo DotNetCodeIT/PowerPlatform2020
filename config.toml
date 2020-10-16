@@ -1,4 +1,4 @@
-baseURL = "http://o365day2020.dotnetdev.it/"
+baseURL = "https://o365day2020.dotnetdev.it/"
 languageCode = "it-it"
 title = "O365 Day"
 theme = "infinity-hugo"
@@ -8,7 +8,7 @@ publishDir = "docs"
 
 
 # HTML before the closing </head>
-[params]histor
+[params]
 customHead = ""
 
 # Navigation
