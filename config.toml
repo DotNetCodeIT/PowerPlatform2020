@@ -20,6 +20,7 @@ service = "Services"
 contact = "Contact"
 cta = "Be a Part"
 sponsor = "Sponsor"
+agenda = "Agenda"
 
 # Hero Area
 [params.hero]
@@ -163,6 +164,10 @@ icon    = "tf-globe"
 title   = "Fully SEO Optimized"
 description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
 delay   = "1.5s"
+
+# Agenda Section
+[params.agenda]
+enable      = true
 
 
 # Call to Action Section
