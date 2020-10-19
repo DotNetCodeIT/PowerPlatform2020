@@ -56,8 +56,8 @@ image   = "images/sponsor/microsoft.png"
 link    = "https://www.microsoft.com"
 
 [[params.sponsor.sliderItemPlatinum]]
-image   = "images/sponsor/reply.png"
-link    = "https://www.reply.com/it"
+image   = "images/sponsor/clusterreply.png"
+link    = "https://www.reply.com/cluster-reply/it/"
 
 [[params.sponsor.sliderItemPlatinum]]
 image   = "images/sponsor/avanade.png"
