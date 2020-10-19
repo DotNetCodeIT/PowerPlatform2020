@@ -1,6 +1,6 @@
 baseURL = "https://o365day2020.dotnetdev.it/"
 languageCode = "it-it"
-title = "O365 Day"
+title = "MS365 Day"
 theme = "infinity-hugo"
 removePathAccents = true
 publishDir = "docs"
@@ -26,9 +26,9 @@ agenda = "Agenda"
 [params.hero]
 enable            = true
 bg                = "images/header-bg.png"
-title             = "O365 Day 2020"
+title             = "MS365 Day 2020"
 eventDate         = "06/11/2020"
-subtitle          = "O365 Day is a free online event dedicated to Low Code developer on Microsoft Platform"
+subtitle          = "MS365 Day is a free online event dedicated to Low Code developer on Microsoft Platform"
 btnText           = "Registrati"
 
 # counter
@@ -175,7 +175,7 @@ enable      = true
 enable      = true
 bg          = "images/call-to-action.png"
 title       = "We Want you"
-subtitle    = "Do you want partecipate to O365 Day? You can teach, learn or help us as a staff member!"
+subtitle    = "Do you want partecipate to MS365 Day? You can teach, learn or help us as a staff member!"
 
 eventbriteHomeButtonText = "Registrer to online event"
 cfpHomeButtonText = "Call for paper"
